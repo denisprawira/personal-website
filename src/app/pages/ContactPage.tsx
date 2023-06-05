@@ -17,6 +17,10 @@ const ContactPage = () => {
     const templateId: string = process.env.NEXT_PUBLIC_TEMPLATE_MESSAGE!;
     const apiKey: string = process.env.NEXT_PUBLIC_API_KEY!;
 
+    console.log("service id : " + serviceId);
+    console.log("template id : " + templateId);
+    console.log("api key : " + apiKey);
+
     useEffect(() => {
         let timer: NodeJS.Timeout;
 
