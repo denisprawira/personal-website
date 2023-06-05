@@ -19,8 +19,6 @@ export default function Home() {
         }
     }, [theme]);
 
-    console.log("theme is : " + theme);
-
     return (
         <main
             className="App h-full relative flex min-h-screen flex-col  "
