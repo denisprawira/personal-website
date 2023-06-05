@@ -5,7 +5,7 @@ const homePage = () => {
                 <div className="flex flex-col gap-4 justify-center">
                     <h1
                         className="max-sm:text-center max-sm:text-4xl sm:text-start text-5xl font-semibold font-amaranth bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-500
-                     bg-clip-text text-transparent bg-auto animate-gradient"
+                     bg-clip-text text-transparent bg-auto animate-gradient pb-1"
                     >
                         Crafting captivating experiences through code and
                         creativity
